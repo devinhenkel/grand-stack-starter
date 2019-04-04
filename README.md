@@ -82,3 +82,4 @@ See [the project releases](https://github.com/grand-stack/grand-stack-starter/re
 
 This project is licensed under the Apache License v2.
 Copyright (c) 2018 Neo4j, Inc.
+# grand-stack-starter
