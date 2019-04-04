@@ -35,6 +35,17 @@ type Category {
   businesses: [Business] @relation(name: "IN_CATEGORY", direction: "IN")
 }
 
+type Movie {
+  _id: ID!
+  title: String
+  tagline: String
+  released: Int
+}
+
+type mutation {
+  post(title: String!, tagline: String!, released: Int! ): Movie!
+}
+
 type Query {
   usersBySubstring(substring: String): [User]
     @cypher(
