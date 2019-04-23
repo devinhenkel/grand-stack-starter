@@ -1,3 +1,12 @@
 .UserList {
   text-align: left;
 }
+
+button {
+  width: 80px;
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+}

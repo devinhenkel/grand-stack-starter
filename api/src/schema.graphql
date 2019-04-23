@@ -42,10 +42,6 @@ type Movie {
   released: Int
 }
 
-type mutation {
-  post(title: String!, tagline: String!, released: Int! ): Movie!
-}
-
 type Query {
   usersBySubstring(substring: String): [User]
     @cypher(
